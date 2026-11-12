@@ -1,0 +1,14 @@
+# Maps one coverholder's column names onto the canonical risk bordereau schema.
+# Copy this file for each new source and edit the left hand side.
+columns:
+  "Policy No.": policy_ref
+  "Section": section
+  "Insured": insured_name
+  "Risk Country": country
+  "Class": class_of_business
+  "Inception": inception_date
+  "Expiry": expiry_date
+  "Ccy": currency
+  "TSI": sum_insured
+  "Gross Premium": gross_premium
+  "Brokerage %": brokerage_pct
